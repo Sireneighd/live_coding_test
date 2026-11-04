@@ -1,0 +1,91 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+
+
+.navbar{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar ul {
+
+
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    font-size: 10px;
+
+
+}
+
+
+
+.espnheader{
+
+        display: flex;
+}
+
+
+#center1{
+
+
+    background-image: url(https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1104%2Fr1740882_1296x1296_1%2D1.jpg&w=375&h=375&scale=crop&cquality=80&location=center);
+    
+}
+
+#aside1, #aside2, #aside3, #aside4, #aside5, #aside6{
+
+    box-sizing: border-box;
+     width: 150px;
+     border: red 2px dotted;
+     margin: 0px;
+     margin-left: 10px;
+     padding: 10px;
+
+
+}
+
+#aside1, #aside2, #aside3, #aside4, #aside5, #aside6 > p {
+
+
+        font-size: 10px;
+
+}
+
+#rightside1{
+
+        border: red 2px dotted;
+        width: 150px;
+        margin-right: 10px;
+        padding: 5px;
+        
+
+}
+
+#rightside1 ul li{
+
+    
+    font-size: 10px;
+    margin: 0;
+    padding: 7px 0;
+    list-style-type: none;
+}
+
+#rightside1 > p{
+
+
+    padding-left: 15px;
+}
+
+#center{
+
+    width: 400px;
+    margin: auto;
+
+}
